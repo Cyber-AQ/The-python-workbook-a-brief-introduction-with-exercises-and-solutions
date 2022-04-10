@@ -568,7 +568,18 @@ import math
 # and largest values. The middle value can be found by computing the sum of all three
 # values, and then subtracting the minimum value and the maximum value.
 
-
+# num1 = int(input("Enter integer 1"))
+# num2 = int(input("Enter integer 2"))
+# num3 = int(input("Enter integer 3"))
+#
+# numMin = min(num1, num2, num3)
+# numMax = max(num1, num2, num3)
+#
+# numSorted = (num1 + num2 + num3) - numMin - numMax
+#
+# # num1MiddleValue = (sum(num1Sorted) - num1min) /
+# print("number1 is: {} | number2 is: {} | number3 is: {}".format(num1, num2, num3))
+# print("number1 sorted is: {} | number2 sorted is: {} | number3 sorted is: {}".format(numMin, numSorted, numMax))
 
 
 # Exercise 34: Day Old Bread
