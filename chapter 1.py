@@ -583,7 +583,7 @@ import math
 # Exercise 34: Day Old Bread
 # (Solved, 19 Lines)
 # A bakery sells loaves of bread for $3.49 each. Day old bread is discounted by 60
-# percent. Write a program that begins by reading the number of loaves of day old
+# percent. Write a program that begins by reading the number of loaves of day-old
 # bread being purchased from the user. Then your program should display the regular
 # price for the bread, the discount because it is a day old, and the total price. Each of
 # these amounts should be displayed on its own line with an appropriate label.

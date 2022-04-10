@@ -37,7 +37,7 @@
 
 # Exercise 66: No More Pennies
 # (Solved, 39 Lines)
-# February 4, 2013 was the last day that pennies were distributed by the Royal Canadian
+# February 4, 2013, was the last day that pennies were distributed by the Royal Canadian
 # Mint. Now that pennies have been phased out retailers must adjust totals so that they
 # are multiples of 5 cents when they are paid for with cash (credit card and debit card
 # transactions continue to be charged to the penny). While retailers have some freedom
@@ -71,6 +71,7 @@
 # Enter the next y-coordinate: 1
 # Enter the next x-coordinate (blank to quit):
 # The perimeter of that polygon is 3.414213562373095
+
 
 
 # Exercise 68: Compute a Grade Point Average
@@ -338,6 +339,19 @@
 # it should compute the equivalent decimal number by processing each digit in the
 # binary number. Finally, your program should display the equivalent decimal number
 # with an appropriate message.
+
+# print("THIS IS A BINARY TO DECIMAL CONVERSION PROGRAM!")
+# print()
+# binary = input("Enter binary numbers of your choice, of any length.")
+# new = binary[::-1]  # reversing string
+#
+# decimal, power = 0, 0
+#
+# for index, a in enumerate(new):
+#     decimal += (int(a) * pow(2, index))
+#
+# print("The Binary entered is: {}".format(binary))
+# print("The appropriate decimal value is: {}".format(decimal))
 
 
 # Exercise 82: Decimal to Binary
