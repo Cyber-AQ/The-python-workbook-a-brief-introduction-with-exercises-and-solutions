@@ -416,9 +416,9 @@ import math
 # the adjacent sides are equal. The area of a regular polygon can be computed using
 # the following formula, where s is the length of a side and n is the number of sides:
 # area = n × s2
-# 4 × tan π
+# 4 × tan π
 # n
-# 
+
 # Write a program that reads s and n from the user and then displays the area of a
 # regular polygon constructed from these values.
 
@@ -559,8 +559,6 @@ import math
 # 3+1+4+1=9.
 
 
-
-
 # Exercise 33: Sort 3 Integers
 # (Solved, 19 Lines)
 # Create a program that reads three integers from the user and displays them in sorted
@@ -588,6 +586,17 @@ import math
 # percent. Write a program that begins by reading the number of loaves of day old
 # bread being purchased from the user. Then your program should display the regular
 # price for the bread, the discount because it is a day old, and the total price. Each of
-# these amounts should be displayed on its own line with an appropriate label. All of
-# the values should be displayed using two decimal places, and the decimal points in
-# all of the numbers should be aligned when reasonable values are entered by the user.
+# these amounts should be displayed on its own line with an appropriate label.
+# All the values should be displayed using two decimal places, and the decimal points in
+# all the numbers should be aligned when reasonable values are entered by the user.
+
+# dayOfBreads = int(input("Enter number of day old breads..."))
+# regularPrice = 3.49
+# discount = 60/100
+# discountCalculationPercentage = 40 / 100
+# discountPrice = (discountCalculationPercentage * regularPrice) * dayOfBreads
+# regularCalculated = regularPrice * dayOfBreads
+# total = regularCalculated + discountPrice
+#
+# print("Regular total: ${:.2f} | Discount total: ${:.2f} | Total: {:.2f}"
+#       .format(regularCalculated, discountPrice, total))
