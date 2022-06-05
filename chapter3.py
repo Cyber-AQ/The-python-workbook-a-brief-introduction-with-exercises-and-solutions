@@ -7,6 +7,23 @@
 # Hint: Because the 0 marks the end of the input it should not be included in the
 # average.
 
+# addingValues, counter = 0, 0
+# value = int(input("Enter a value, or enter 0 for no further value will be provided."))
+# if value != 0:
+#     while value != 0:
+#         number = int(value)
+#
+#         addingValues = addingValues + number
+#
+#         counter = counter + 1
+#
+#         value = int(input("Enter a value, or enter 0 for no further value will be provided."))
+#
+#     average = addingValues / counter
+#     print("The average is: {}".format(average))
+# else:
+#     print("Please enter another number that is not 0.")
+
 
 # Exercise 64: Discount Table
 # (18 Lines)
@@ -18,6 +35,8 @@
 # and the new price for purchases of $4.95, $9.95, $14.95, $19.95 and $24.95. Ensure
 # that the discount amounts and the new prices are rounded to 2 decimal places when
 # they are displayed.
+
+
 
 
 # Exercise 65: Temperature Conversion Table
@@ -71,7 +90,6 @@
 # Enter the next y-coordinate: 1
 # Enter the next x-coordinate (blank to quit):
 # The perimeter of that polygon is 3.414213562373095
-
 
 
 # Exercise 68: Compute a Grade Point Average
