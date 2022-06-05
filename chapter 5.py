@@ -1,9 +1,22 @@
 # Exercise 110: Sorted Order(Solved, 22 Lines)
 # Write a program that reads integers from the user and stores them in a list. Your
 # program should continue reading values until the user enters 0. Then it should display
-# all of the values entered by the user (except for the 0) in ascending order, with one
+# all the values entered by the user (except for the 0) in ascending order, with one
 # value appearing on each line. Use either the sort method or the sorted function
 # to sort the list.
+
+# userList = []
+# data = int(input("Enter values, but entering 0 to quit."))
+# while data != 0:
+#     n = int(data)
+#     userList.append(n)
+#
+#     data = int(input("Enter values, but entering 0 to quit."))
+#
+# sortedList = sorted(userList)
+#
+# for i in sortedList:
+#     print(i)
 
 
 # Exercise 111: Reverse Order (20 Lines)
@@ -12,14 +25,30 @@
 #  your program should display them (except for the 0) in reverse order, with one value
 #  appearing on each line.
 
+# userList = []
+#
+# data = int(input("Enter values, but entering 0 to quit."))
+#
+# while data != 0:
+#     n = int(data)
+#
+#     userList.append(n)
+#
+#     data = int(input("Enter values, but entering 0 to quit."))
+#
+# reversedList = reversed(userList)
+#
+# for i in reversedList:
+#     print(i)
+
 
 # Exercise 112: Remove Outliers
 # (Solved, 44 Lines)
 # When analysing data collected as part of a science experiment it may be desirable
 # to remove the most extreme values before performing other calculations. Write a
-# function that takes a list of values and an non-negative integer, n, as its parameters.
-# The function should create a new copy of the list with the n largest elements and the
-# n smallest elements removed. Then it should return the new copy of the list as the
+# function that takes a list of values and a non-negative integer, n, as its parameters.
+# The function should create a new copy of the list with the n the largest elements and the
+# n the smallest elements removed. Then it should return the new copy of the list as the
 # function’s only result. The order of the elements in the returned list does not have to
 # match the order of the elements in the original list.
 # Write a main program that demonstrates your function. It should read a list of
@@ -32,7 +61,8 @@
 # Exercise 113: Avoiding Duplicates
 # (Solved, 21 Lines)
 # In this exercise, you will create a program that reads words from the user until the
-# user enters a blank line. After the user enters a blank line your program should display each word entered by the user exactly once. The words should be displayed in
+# user enters a blank line. After the user enters a blank line your program should
+# display each word entered by the user exactly once. The words should be displayed in
 # the same order that they were first entered. For example, if the user enters:
 # first
 # second
@@ -44,16 +74,45 @@
 # second
 # third
 
+# wordList = []
+#
+# enteredWord = input("Enter words of your choice, or leave blank to quit.")
+#
+# while enteredWord != "":
+#     w = enteredWord
+#
+#     wordList.append(w)
+#
+#     enteredWord = input("Enter words of your choice, or leave blank to quit.")
+#
+# for i in wordList:
+#     print(i)
+
 
 # Exercise 114: Negatives, Zeros and Positives
 # (Solved, 36 Lines)
 # Create a program that reads integers from the user until a blank line is entered. Once
-# all of the integers have been read your program should display all of the negative
-# numbers, followed by all of the zeros, followed by all of the positive numbers. Within
+# all the integers have been read your program should display all the negative
+# numbers, followed by all the zeros, followed by all the positive numbers. Within
 # each group the numbers should be displayed in the same order that they were entered
 # by the user. For example, if the user enters the values 3, -4, 1, 0, -1, 0, and -2 then
 # your program should output the values -4, -1, -2, 0, 0, 3, and 1. Your program
 # should display each value on its own line.
+
+# userList = []
+#
+# data = int(input("Enter values, but entering nothing will terminate the program."))
+#
+# while data != 0:
+#     n = int(data)
+#
+#     userList.append(n)
+#
+#     data = int(input("Enter values, but entering nothing will terminate the program."))
+#
+# newList = sorted(userList)
+#
+# for i in newList:
 
 
 # Exercise 115: List of Proper Divisors
@@ -61,7 +120,7 @@
 # A proper divisor of a positive integer, n, is a positive integer less than n which divides
 # evenly into n. Write a function that computes all of the proper divisors of a positive
 # integer. The integer will be passed to the function as its only parameter. The function
-# will return a list containing all of the proper divisors as its only result. Complete
+# will return a list containing all the proper divisors as its only result. Complete
 # this exercise by writing a main program that demonstrates the function by reading
 # a value from the user and displaying the list of its proper divisors. Ensure that your
 # main program only runs when your solution has not been imported into another file.
