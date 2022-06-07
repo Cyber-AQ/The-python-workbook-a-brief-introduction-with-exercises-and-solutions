@@ -104,6 +104,49 @@
 # Your program does not need to do any error checking. It can assume that each value
 # entered by the user will always be a valid letter grade or a blank line.
 
+# from exercise 55 solutions.
+# average, total, counter, marks = 0.0, 0.0, 0, 0.0
+# letters = input("Enter all your grades; then, press enter(enter nothing) to quit the prompt dialog.")
+# letters.upper()
+# while letters != "":
+#     examMarks = letters.upper()
+#
+#     if examMarks == "A+":
+#         marks = 4.0
+#     elif examMarks == "A":
+#         marks = 4.0
+#     elif examMarks == "A-":
+#         marks = 3.7
+#     elif examMarks == "B+":
+#         marks = 3.3
+#     elif examMarks == "B":
+#         marks = 3.0
+#     elif examMarks == "B-":
+#         marks = 2.7
+#     elif examMarks == "C+":
+#         marks = 2.3
+#     elif examMarks == "C":
+#         marks = 2.0
+#     elif examMarks == "C-":
+#         marks = 1.7
+#     elif examMarks == "D+":
+#         marks = 1.3
+#     elif examMarks == "D":
+#         marks = 1.0
+#     elif examMarks == "F":
+#         marks = 0
+#     else:
+#         words = "no such grades"
+#
+#     total = total + marks
+#
+#     counter = counter + 1
+#
+#     letters = input("Enter all your grades; then, press enter(enter nothing) to quit the prompt dialog.")
+#
+# average = total / counter
+# print("A grade point average of: {}".format(average))
+
 
 # Exercise 69: Admission Price
 # (Solved, 38 Lines)
@@ -145,6 +188,7 @@
 #
 # print("The Total cost is: ${:.2f} | senior cost is: ${:.2f} | senior1 cost is: ${:.2f} | others cost is: ${:.2f}"
 #       .format(total, seniorCharges, senior1Charges, othersCharges))
+
 
 # Exercise 70: Parity Bits
 # (Solved, 27 Lines)

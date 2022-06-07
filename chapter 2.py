@@ -610,6 +610,43 @@ import math
 # letter grades. These should be rounded to the closest letter grade. Your program
 # should report A+ if the value entered by the user is 4.0 or more.
 
+# score = float(input("Enter a letter grade you have here:"))
+# words = ""
+# grades = ""
+#
+# if score >= 4.0:
+#     grades = "A+"
+# elif 4.0 < score <= 3.7:
+#     grades = "A"
+# elif 3.7 > score >= 3.3:
+#     grades = "A-"
+# elif 3.3 > score >= 3.0:
+#     grades = "B+"
+# elif 3.0 > score >= 2.7:
+#     grades = "B"
+# elif 2.7 > score >= 2.3:
+#     grades = "B-"
+# elif 2.3 > score >= 2.0:
+#     grades = "C+"
+# elif 2.0 > score >= 1.7:
+#     grades = "C"
+# elif 1.7 > score >= 1.3:
+#     grades = "C-"
+# elif 1.3 > score >= 1.0:
+#     grades = "D+"
+# elif 1.0 > score > 0.0:
+#     grades = "D"
+# elif score == 0.0:
+#     grades = "F"
+# else:
+#     words = "no such scores exist"
+#     print(words)
+#
+# if grades == "A" and grades == "A+" and grades == "A-" and grades == "F":
+#     print("You have an {} grade".format(grades))
+# else:
+#     print("You have a {} grade".format(grades))
+
 
 # Exercise 54: Assessing Employees
 # (Solved, 30 Lines)

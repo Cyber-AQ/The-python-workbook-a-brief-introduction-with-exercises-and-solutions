@@ -89,7 +89,7 @@
 #     print(i)
 
 
-# Exercise 114: Negatives, Zeros and Positives
+# Exercise 114: Negatives, Zeros and Positives (to be finished...)
 # (Solved, 36 Lines)
 # Create a program that reads integers from the user until a blank line is entered. Once
 # all the integers have been read your program should display all the negative
@@ -118,7 +118,7 @@
 # Exercise 115: List of Proper Divisors
 # (36 Lines)
 # A proper divisor of a positive integer, n, is a positive integer less than n which divides
-# evenly into n. Write a function that computes all of the proper divisors of a positive
+# evenly into n. Write a function that computes all the proper divisors of a positive
 # integer. The integer will be passed to the function as its only parameter. The function
 # will return a list containing all the proper divisors as its only result. Complete
 # this exercise by writing a main program that demonstrates the function by reading
